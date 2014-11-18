@@ -1,0 +1,34 @@
+ul#bookList li div {
+	display: inline-block;
+	width: 30%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	width: 40% !important;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	width: 600px;
+}
+
+ul#bookList li  {
+		border: 1px solid black;
+		padding: 20px;
+}
+
+#boom{
+	float: right;
+	background-color: pink;
+	height:600px;
+	width: 300px;
+}
