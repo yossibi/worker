@@ -1,7 +1,7 @@
 function boom() {
     for(var i=0; i<22;  i++){
    if( i%7 == 0 ){
-    postMessage(i);
+    postMassage(i);
    // setTimeout("timedCount()",100);
     }}
 }
