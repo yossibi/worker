@@ -5,5 +5,6 @@ function boom() {
    if( i%7 == 0 )
     postMessage(i);
     setTimeout("timedCount()",100);
+    }
 }
 boom();
