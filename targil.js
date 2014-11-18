@@ -200,7 +200,7 @@ function boom() {
 		var newNum = document.createElement("li");
 		newNum = event.data;
 		var newLine = document.getElementById("boom");
-		newLine.appendChild(newNum);
+		newLine.children[0].appendChild(newNum);
             
         };
     } else {
