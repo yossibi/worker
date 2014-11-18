@@ -1,0 +1,28 @@
+<html>
+    <head>
+		<script src="targil.js"></script>
+		<link href="targil.css"  rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+		<h1>My bookshelf</h1>
+		<h2>Enter your book</h2>
+		<div>
+			<input type="text" placeholder="Book name" id="bookName"/>
+			<input type="text" placeholder="Author name" id="authorName"/>
+			<input type="text" placeholder="Give a score(1-10)" id="score" />
+			<button onclick="addBook()">Add this book</button>
+			<button onclick="reset()">Reset all fields</button>
+		</div>
+		
+		<h3>Your Books:</h3> <button onclick="clearListAndArray()">Clear List</button>
+		<input type="text" placeholder="search by book name" id="searchName" onkeyup="search()" />
+		<div id="boom"><ul></ul></div>
+		
+		<ul id="bookList">
+			
+		</ul>
+		
+      
+    </body>
+</html>    
