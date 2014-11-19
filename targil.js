@@ -213,4 +213,4 @@ function boom(event) {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
      }
 }
-boom();
+setTimeout("boom()",1000);
