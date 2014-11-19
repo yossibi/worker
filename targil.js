@@ -191,7 +191,7 @@ function clearListAndArray(){
 	booksArray = [];
 	localStorage.setItem("refael", JSON.stringify(booksArray));
 }
-function boom() {
+function boom(event) {
 	var w;
     if(typeof(Worker) !== "undefined") {
         if(typeof(w) == "undefined") {
