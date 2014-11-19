@@ -1,14 +1,14 @@
 
-function boom() {
-    for(var i=0; i<22;  i++){
-   if( i%7 == 0 ){
-    postMessage(i);
-pausecomp(5000);
- 
- 
- 
- //  setTimeout("boom()",1000);
-    }}
+function boom()
+{
+    for(var i=0; i>-1;  i++)
+    {
+   	if( i%7 == 0 )
+   	{
+    		postMessage(i);
+		pausecomp(5000);
+    	}
+    }
 }
 boom();
 
