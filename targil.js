@@ -199,8 +199,8 @@ function boom() {
         w.onmessage = function(event) {
 		var newNum = document.createElement("li");
 		newNum = event.data;
-		var newLine = document.getElementById("boom");
-		newLine.children[0].appendChild(newNum);
+		var newLine = document.getElementById("boomUl");
+		newLine.appendChild(newNum);
             
         };
     } else {
