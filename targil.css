@@ -29,6 +29,6 @@ ul#bookList li  {
 #boom{
 	float: right;
 	background-color: pink;
-	height:600px;
+	height:100%;
 	width: 300px;
 }
