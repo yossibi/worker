@@ -193,19 +193,24 @@ function clearListAndArray(){
 }
 function boom(event) {
 	var w;
-    if(typeof(Worker) !== "undefined") {
-        if(typeof(w) == "undefined") {
+    if(typeof(Worker) !== "undefined") 
+    {
+        if(typeof(w) == "undefined") 
+        {
             w = new Worker("worker.js");
         }
-        w.onmessage = function(event) {
+        w.onmessage = function(event)
+        {
 		var newNum = document.createElement("li");
 		newNum = event.data;
 		var newLine = document.getElementById("boomUl");
 		newLine.appendChild(newNum);
             
-        };
-    } else {
+        }
+     }
+     else 
+     {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
-    }
+     }
 }
 boom();
