@@ -6,7 +6,7 @@ function boom()
    	if( i%7 == 0 )
    	{
     		postMessage(i);
-		pausecomp(5000);
+		pausecomp(2000);
     	}
     }
 }
