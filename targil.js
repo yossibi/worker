@@ -198,7 +198,7 @@ function boom(event) {
             w = new Worker("worker.js");
         }
         w.onmessage = function(event) {
-		var newNum = document.createElement(li);
+		var newNum = document.createElement("li");
 		newNum = event.data;
 		var newLine = document.getElementById("boomUl");
 		newLine.appendChild(newNum);
