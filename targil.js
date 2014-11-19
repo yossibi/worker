@@ -202,7 +202,7 @@ function boom(event) {
         w.onmessage = function(event)
         {
 		var newNum = document.createElement("li");
-		newNum = event.data;
+		newNum.innerHTML = event.data;
 		var newLine = document.getElementById("boomUl");
 		newLine.appendChild(newNum);
             
